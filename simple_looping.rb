@@ -9,14 +9,13 @@ def loop_iterator(number_of_times)
   # Maybe we should keep count of the number of times we've puts out the 
   #  phrase and break when the counter hits the appropriate number...
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  index = 0 
-  loop do
-    index += 1 
-    return phrase
-    if index >= number_of_times
+  number_of_times = 0
+  loop do 
+    number_of_times += 1
+    puts "Welcome to Flatiron School's Web Development Course!"
+    if number_of_times >= 7
       break
     end
-  end
 end
 
 def times_iterator(number_of_times)
