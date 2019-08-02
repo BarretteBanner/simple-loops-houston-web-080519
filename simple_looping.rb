@@ -11,7 +11,7 @@ def loop_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   index = 0 
   while index > 7
-    phrase = phrase + phrase
+    return phrase
     index += 1 
   end
   return phrase
