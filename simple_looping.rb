@@ -14,7 +14,7 @@ def loop_iterator(number_of_times)
     phrase = phrase + phrase
     index += 1 
   end
-  
+  return phrase
 end
 
 def times_iterator(number_of_times)
