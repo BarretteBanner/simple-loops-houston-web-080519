@@ -15,6 +15,7 @@ def loop_iterator(number_of_times)
     return phrase
     if index >= number_of_times
       break
+    end
   end
 end
 
